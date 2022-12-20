@@ -1,0 +1,11 @@
+spring:
+  profile: dev
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: admin
+    url: jdbc:mysql://localhost:3306/dcbapp-dev
+    username: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true               '
